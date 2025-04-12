@@ -1,0 +1,178 @@
+@media (min-width: 768px) {
+	.container .ping-page {
+		padding: 75px 30px 30px;
+	}
+
+	.ping-page .inputs {
+		margin-bottom: 50px;
+	}
+
+	.ping-page .illustration {
+		margin-bottom: 75px;
+	}
+
+	/* Error state */
+
+	.inputs.invalid .input-email {
+		margin-bottom: 12px;
+		border-color: var(--Light-Red);
+	}
+
+	.inputs.invalid div::before {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container .ping-page {
+		padding: 50px 0 35px;
+	}
+
+	.ping-page .title {
+		margin-bottom: 30px;
+		font-size: 2.2rem;
+	}
+
+	.ping-page .text-soon {
+		margin-bottom: 20px;
+		font-size: 3rem;
+	}
+
+	.ping-page .text-subscribe {
+		margin-bottom: 30px;
+		font-size: 1.4rem;
+	}
+
+	.ping-page .inputs {
+		flex-direction: row;
+		gap: 15px;
+		margin-bottom: 75px;
+	}
+
+	.ping-page .inputs input {
+		border-radius: 30px;
+		padding: 15px 30px;
+		font-size: 1.4rem;
+	}
+
+	.inputs div {
+		width: 67%;
+	}
+
+	.ping-page .inputs .input-email {
+		width: 100%;
+	}
+
+	.ping-page .inputs .btn-notify {
+		width: 33%;
+	}
+
+	.footer .rights {
+		font-size: 1.3rem;
+	}
+
+	/* Error state */
+
+	.inputs.invalid .input-email,
+	.inputs.invalid .btn-notify {
+		margin: 0;
+	}
+
+	.inputs.invalid div::before {
+		top: 110%;
+		left: 31px;
+		text-align: left;
+	}
+}
+
+@media (min-width: 1440px) {
+	.ping-page .title {
+		font-size: 2.4rem;
+	}
+
+	.ping-page .text-soon {
+		font-size: 3.2rem;
+	}
+
+	.ping-page .text-subscribe {
+		font-size: 1.6rem;
+	}
+
+	.ping-page .inputs input {
+		font-size: 1.6rem;
+	}
+
+	.footer .rights {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1800px) {
+	.container .ping-page {
+		max-width: 38vw;
+		padding: 2.5vw 0 1.6vw;
+	}
+
+	.ping-page .title {
+		margin-bottom: 1.8vw;
+		font-size: 1.5vw;
+	}
+
+	.ping-page .text-soon {
+		margin-bottom: 0.9vw;
+		font-size: 2.1vw;
+	}
+
+	.ping-page .text-subscribe {
+		margin-bottom: 2vw;
+		font-size: 1.1vw;
+	}
+
+	.ping-page .inputs {
+		gap: 0.9vw;
+		margin-bottom: 4vw;
+	}
+
+	.ping-page .inputs input {
+		border-radius: 2vw;
+		padding: 1vw 1.8vw;
+		font-size: 1.1vw;
+	}
+
+	.ping-page .inputs .btn-notify {
+		box-shadow: 0 0.2vw 0.7vw rgba(0, 0, 0, 0.25);
+	}
+
+	.ping-page .illustration {
+		margin-bottom: 4vw;
+	}
+
+	.footer .social-medias {
+		gap: 1vw;
+		margin-bottom: 1.5vw;
+	}
+
+	.footer .rights {
+		font-size: 0.9vw;
+	}
+
+	.footer .social-medias a {
+		width: 2.2vw;
+		height: 2.2vw;
+		padding: 0.7vw;
+	}
+	.footer .social-medias a:hover {
+		transform: translateY(-0.3vw);
+	}
+
+	.footer .social-medias a i {
+		font-size: 0.9vw;
+	}
+
+	/* Error state */
+
+	.inputs.invalid div::before {
+		left: 1.85vw;
+		font-size: 0.85vw;
+	}
+}
